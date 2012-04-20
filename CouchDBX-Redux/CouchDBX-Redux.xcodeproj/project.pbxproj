@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC0AA261541937E00EB27E4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC0AA251541937E00EB27E4 /* Cocoa.framework */; };
+		ADC0AA301541937E00EB27E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADC0AA2E1541937E00EB27E4 /* InfoPlist.strings */; };
+		ADC0AA321541937E00EB27E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC0AA311541937E00EB27E4 /* main.m */; };
+		ADC0AA361541937E00EB27E4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ADC0AA341541937E00EB27E4 /* Credits.rtf */; };
+		ADC0AA391541937E00EB27E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC0AA381541937E00EB27E4 /* AppDelegate.m */; };
+		ADC0AA3C1541937F00EB27E4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC0AA3A1541937F00EB27E4 /* MainMenu.xib */; };
+		ADC0AA44154194E100EB27E4 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC0AA42154194E100EB27E4 /* stop.png */; };
+		ADC0AA45154194E100EB27E4 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC0AA43154194E100EB27E4 /* start.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ADC0AA211541937E00EB27E4 /* CouchDBX-Redux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CouchDBX-Redux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC0AA251541937E00EB27E4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ADC0AA281541937E00EB27E4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ADC0AA291541937E00EB27E4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADC0AA2A1541937E00EB27E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADC0AA2D1541937E00EB27E4 /* CouchDBX-Redux-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CouchDBX-Redux-Info.plist"; sourceTree = "<group>"; };
+		ADC0AA2F1541937E00EB27E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADC0AA311541937E00EB27E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADC0AA331541937E00EB27E4 /* CouchDBX-Redux-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouchDBX-Redux-Prefix.pch"; sourceTree = "<group>"; };
+		ADC0AA351541937E00EB27E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ADC0AA371541937E00EB27E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADC0AA381541937E00EB27E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADC0AA3B1541937F00EB27E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADC0AA42154194E100EB27E4 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		ADC0AA43154194E100EB27E4 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC0AA1E1541937E00EB27E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0AA261541937E00EB27E4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC0AA161541937E00EB27E4 = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA2B1541937E00EB27E4 /* CouchDBX-Redux */,
+				ADC0AA241541937E00EB27E4 /* Frameworks */,
+				ADC0AA221541937E00EB27E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC0AA221541937E00EB27E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA211541937E00EB27E4 /* CouchDBX-Redux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC0AA241541937E00EB27E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA251541937E00EB27E4 /* Cocoa.framework */,
+				ADC0AA271541937E00EB27E4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADC0AA271541937E00EB27E4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA281541937E00EB27E4 /* AppKit.framework */,
+				ADC0AA291541937E00EB27E4 /* CoreData.framework */,
+				ADC0AA2A1541937E00EB27E4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ADC0AA2B1541937E00EB27E4 /* CouchDBX-Redux */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA371541937E00EB27E4 /* AppDelegate.h */,
+				ADC0AA381541937E00EB27E4 /* AppDelegate.m */,
+				ADC0AA3A1541937F00EB27E4 /* MainMenu.xib */,
+				ADC0AA2C1541937E00EB27E4 /* Supporting Files */,
+			);
+			path = "CouchDBX-Redux";
+			sourceTree = "<group>";
+		};
+		ADC0AA2C1541937E00EB27E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0AA2D1541937E00EB27E4 /* CouchDBX-Redux-Info.plist */,
+				ADC0AA2E1541937E00EB27E4 /* InfoPlist.strings */,
+				ADC0AA311541937E00EB27E4 /* main.m */,
+				ADC0AA331541937E00EB27E4 /* CouchDBX-Redux-Prefix.pch */,
+				ADC0AA341541937E00EB27E4 /* Credits.rtf */,
+				ADC0AA42154194E100EB27E4 /* stop.png */,
+				ADC0AA43154194E100EB27E4 /* start.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC0AA201541937E00EB27E4 /* CouchDBX-Redux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC0AA3F1541937F00EB27E4 /* Build configuration list for PBXNativeTarget "CouchDBX-Redux" */;
+			buildPhases = (
+				ADC0AA1D1541937E00EB27E4 /* Sources */,
+				ADC0AA1E1541937E00EB27E4 /* Frameworks */,
+				ADC0AA1F1541937E00EB27E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CouchDBX-Redux";
+			productName = "CouchDBX-Redux";
+			productReference = ADC0AA211541937E00EB27E4 /* CouchDBX-Redux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC0AA181541937E00EB27E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Noumenal Software Ltd.";
+			};
+			buildConfigurationList = ADC0AA1B1541937E00EB27E4 /* Build configuration list for PBXProject "CouchDBX-Redux" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADC0AA161541937E00EB27E4;
+			productRefGroup = ADC0AA221541937E00EB27E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC0AA201541937E00EB27E4 /* CouchDBX-Redux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC0AA1F1541937E00EB27E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0AA301541937E00EB27E4 /* InfoPlist.strings in Resources */,
+				ADC0AA361541937E00EB27E4 /* Credits.rtf in Resources */,
+				ADC0AA3C1541937F00EB27E4 /* MainMenu.xib in Resources */,
+				ADC0AA44154194E100EB27E4 /* stop.png in Resources */,
+				ADC0AA45154194E100EB27E4 /* start.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC0AA1D1541937E00EB27E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC0AA321541937E00EB27E4 /* main.m in Sources */,
+				ADC0AA391541937E00EB27E4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADC0AA2E1541937E00EB27E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC0AA2F1541937E00EB27E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADC0AA341541937E00EB27E4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC0AA351541937E00EB27E4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ADC0AA3A1541937F00EB27E4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC0AA3B1541937F00EB27E4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC0AA3D1541937F00EB27E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADC0AA3E1541937F00EB27E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADC0AA401541937F00EB27E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouchDBX-Redux/CouchDBX-Redux-Prefix.pch";
+				INFOPLIST_FILE = "CouchDBX-Redux/CouchDBX-Redux-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADC0AA411541937F00EB27E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouchDBX-Redux/CouchDBX-Redux-Prefix.pch";
+				INFOPLIST_FILE = "CouchDBX-Redux/CouchDBX-Redux-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC0AA1B1541937E00EB27E4 /* Build configuration list for PBXProject "CouchDBX-Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0AA3D1541937F00EB27E4 /* Debug */,
+				ADC0AA3E1541937F00EB27E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC0AA3F1541937F00EB27E4 /* Build configuration list for PBXNativeTarget "CouchDBX-Redux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC0AA401541937F00EB27E4 /* Debug */,
+				ADC0AA411541937F00EB27E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC0AA181541937E00EB27E4 /* Project object */;
+}

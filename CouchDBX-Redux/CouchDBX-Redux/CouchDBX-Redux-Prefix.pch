@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CouchDBX-Redux' target in the 'CouchDBX-Redux' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
