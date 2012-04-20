@@ -1,7 +1,7 @@
 CouchDBX-Redux
 ==============
 
-Work in progress repo for resurrection of CouchDBX — A Mac OS X wrapper for CouchDBX
+Work in progress repo for the resurrection of CouchDBX — A Mac OS X wrapper for CouchDB
 
 This is a reimplementation of the work originally done By Jan Lehnardt and others. See <https://github.com/couchbase/couchdbx-app>.
 
