@@ -159,8 +159,8 @@
         /* We found an application, so we fill in the appropriate values. */
         NSURL *appURL = (__bridge NSURL *)appURLRef;
         appPath = [appURL path];
-        iconImage = [[NSWorkspace sharedWorkspace] iconForFile:appPath];
     }
+    iconImage = [[NSWorkspace sharedWorkspace] iconForFile:appPath];
     return iconImage;
 }
 
