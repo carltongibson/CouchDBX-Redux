@@ -21,3 +21,5 @@ Issues
 ------
 1. Packaging Erlang and CouchDB.
 2. What features should the app have?
+
+Please contribute/comment here or on the <dev@couchdb.apache.org> mailing list.
